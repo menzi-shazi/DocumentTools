@@ -39,6 +39,9 @@ const WebcamCapture = () => {
             audio={false}
             ref={webcamRef}
             screenshotFormat="image/jpeg"
+            videoConstraints={{
+              facingMode: { exact: "environment" },
+            }}
           />
           <div className="button-container">
             <button onClick={capture}>Capture</button>
