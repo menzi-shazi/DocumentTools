@@ -1,0 +1,57 @@
+body {
+    color: #333; 
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+
+.webcam-section {
+    display: flex;
+    justify-content: center;
+}
+
+.webcam-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.webcam-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.webcam {
+    padding: 0px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download-button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #4fa3d1;
+}
